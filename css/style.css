@@ -8,11 +8,30 @@ html {
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+/* CONTENITORE SCARPA CHE PRENDE TUTTO LO SCHERMO */
 article {
     width: 100%;
     height: 100vh;
+    position: relative;
 }
 
+/* CONTENITORE SCARPA CENTRATO */
+article .content {
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    width: 45%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+article .content img {
+    width: 100%;
+}
+
+/* COLORE SFONDI E CARATTERI */
 #shoes-01 {
     background-color: red;
 }
@@ -23,4 +42,13 @@ article {
 
 #shoes-03 {
     background-color: yellow;
+}
+
+#shoes-01 h1,
+#shoes-02 h1 {
+    color: yellow;
+}
+
+#shoes-03 h1 {
+    color: green;
 }
