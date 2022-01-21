@@ -41,8 +41,12 @@ html {
 }
 
 /* BONUS: EFFETTI SPECIALI E ABBELLIMENTI MENU NAVIGAZIONE */
-.navbar a:hover {
+.navbar a:hover { /* OMBRA AL PASSAGGIO SUI BOTTONI DEL MENU */
     box-shadow: 0 .4rem .4rem rgba(0,0,0,.7);
+}
+
+.navbar a:active { /* BACKGROUND BOTTONE DIVERSO QUANDO SI CLICCA */
+    background-color: grey;
 }
 
 /* CONTENITORE SCARPA CHE PRENDE TUTTO LO SCHERMO */
