@@ -1,4 +1,4 @@
-* {
+* { /* Reset CSS */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,4 +6,21 @@
 
 html {
     font-family: 'Rubik Mono One', sans-serif;
+}
+
+article {
+    width: 100%;
+    height: 100vh;
+}
+
+#shoes-01 {
+    background-color: red;
+}
+
+#shoes-02 {
+    background-color: green;
+}
+
+#shoes-03 {
+    background-color: yellow;
 }
