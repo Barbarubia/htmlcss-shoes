@@ -49,6 +49,10 @@ html {
     background-color: grey;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* CONTENITORE SCARPA CHE PRENDE TUTTO LO SCHERMO */
 article {
     width: 100%;
